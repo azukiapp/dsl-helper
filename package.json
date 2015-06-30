@@ -1,0 +1,40 @@
+{
+  "name": "dsl-helper",
+  "version": "0.0.1",
+  "description": "Library that assists in creating DSLs in node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/.bin/gulp lint test",
+    "deploy": "./node_modules/.bin/npm-deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azukiapp/dsl-helper.git"
+  },
+  "keywords": [
+    "dsl",
+    "manifest"
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/azukiapp/dsl-helper/issues"
+  },
+  "homepage": "https://github.com/azukiapp/dsl-helper",
+  "dependencies": {
+    "is-iojs": "^1.1.0",
+    "lodash": "^3.9.3",
+    "source-map-support": "^0.2.10"
+  },
+  "deepDependencies": {
+    "syntax-error": "^1.1.4"
+  },
+  "devDependencies": {
+    "azk-dev": "0.0.15",
+    "gulp": "^3.8.11"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">= 0.10"
+  }
+}
