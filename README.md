@@ -10,7 +10,6 @@ Currently supports:
 Example:
 
 ```js
-var DSLHelper = require('./').DSLHelper;
 var DSLHelper = require('dsl-helper').DSLHelper;
 
 var dsl = new DSLHelper({
