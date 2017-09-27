@@ -1,6 +1,8 @@
 # dsl-helper
 
-This lib assists in the specification and dsl processing in JavaScript. Including adding validates and catch syntax errors.
+[![CircleCI](https://circleci.com/gh/azukiapp/dsl-helper.svg?style=svg)](https://circleci.com/gh/azukiapp/dsl-helper)
+
+This lib assists in the specification and DSL processing in JavaScript. Including adding validates and catch syntax errors.
 
 Currently supports:
 
