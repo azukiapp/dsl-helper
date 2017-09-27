@@ -1,7 +1,5 @@
-
-var _ = require('lodash');
-var runInNewContext = require('vm').runInNewContext;
-var isIojs = require('is-iojs');
+import * as _ from 'lodash';
+import { runInNewContext } from 'vm';
 
 export class DSLHelper {
   constructor(dsl_context) {
@@ -12,15 +10,6 @@ export class DSLHelper {
     // Clone target to security
     target = _.clone(target);
     var context = this._create_dsl_context(target);
-
-    // Check for syntax error
-    if (!isIojs) {
-      var err = require('syntax-error')(code, file);
-      if (err) {
-        err.stack = err.toString();
-        throw err;
-      }
-    }
 
     // Run code in dsl context
     runInNewContext(code, context, file);

@@ -1,9 +1,9 @@
-# Changelog
+# Change Log
 
-## dev
+All notable changes to this project will be documented in this file.
+This project adheres to [Semantic Versioning](http://semver.org/).
 
-  * [TAG_NAME] change comment
+## 0.1.0 - (2017-09-26)
 
-## 0.0.1
-
-  * [Kernel] firts version
+* Enhancements
+  * [Code] Replacing azk-dev for pure Babel tools, mocha and eslint;

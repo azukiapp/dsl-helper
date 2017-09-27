@@ -4,8 +4,7 @@ This lib assists in the specification and dsl processing in JavaScript. Includin
 
 Currently supports:
 
-- node.js
-- io.js
+- node.js >= 6.0.0
 
 Example:
 
@@ -25,7 +24,7 @@ dsl.execute({ name: "David" }, "log();");
 
 ## License
 
-"Azuki", "azk" and the Azuki logo are copyright (c) 2013-2015 Azuki Serviços de Internet LTDA.
+"Azuki", "azk" and the Azuki logo are copyright (c) 2013-2017 Azuki Serviços de Internet LTDA.
 
 **azk** source code is released under Apache 2 License.
 
